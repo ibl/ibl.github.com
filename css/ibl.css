@@ -17,11 +17,3 @@ body {
   margin: 45px 0;
   text-align: left;
 }
-
-/* Supporting marketing content */
-.supporting-content {
-  margin: 30px 0;
-}
-.supporting-content p + h4 {
-  margin-top: 28px;
-}
