@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>lixo</title>
+    <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/ibl.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+    Testing bootstrap appearance for embeeding active content. Let's start with the multiplication of two values:
+    <input class="input-small" type="text" id="a">
+     <select style="width:50px" id="op">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select> 
+    <input class="input-small" type="text" id="b">
+     = <span id="ab"></span>
+    <script>
+    op.onchange=b.onkeyup=a.onkeyup=function(){
+        ab.textContent=eval("parseFloat(a.value)"+op.value+"parseFloat(b.value)");
+    }
+    </script>
+    </div>
+  </body>
+</html>
