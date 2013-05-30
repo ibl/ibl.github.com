@@ -1,6 +1,6 @@
 // iblToolbox
 //
-// Lixo Public License" (LPL)
+// Lixo Public License (LPL)
 
 ibl={
 	hello:function(){
