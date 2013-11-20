@@ -22,3 +22,10 @@ body {
 .member {
   margin: 25px 0;
 }
+.member > div {
+  margin-bottom: 10px;
+}
+.member h4 {
+  display: inline;
+  vertical-align: top;
+}
